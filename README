@@ -3,15 +3,19 @@ This is the source code for the website http://betterthangrep.com
 I want to make an overhaul of the site.  The front page is drab and
 boring and you can't find anything.
 
-The major sections I'd like to have from the front are:
+I'd like to get the content in the current page (because there is
+only one page on the entire site) split up into six different pages
+(although a seventh will be coming).
 
 * Front page
     * Screenshots (That I don't have yet)
-    * How to install + ack for Textmate users
+    * Top 10 reasons to use ack
+
+* How to install
+
+* ack for Textmate users
 
 * Testimonials
-
-* Top 10 reasons to use ack
 
 * Ack's command flags
 
@@ -19,8 +23,8 @@ The major sections I'd like to have from the front are:
 
 * Other tools (see below)
 
-I figure each of those can be a differnet page, with five different tabs on the front.
-
+I figure each of those can be a different page, with five different
+tabs on the front.
 
 The "Other tools" is going to be a page about other ack-like tools.
 I don't have any content for that page, so we don't have to create
