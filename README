@@ -4,22 +4,27 @@ I want to make an overhaul of the site.  The front page is drab and
 boring and you can't find anything.
 
 I'd like to get the content in the current page (because there is
-only one page on the entire site) split up into six different pages
-(although a seventh will be coming).
+only one page on the entire site) split up into the following pages.
 
 * Front page
     * Screenshots (That I don't have yet)
     * Top 10 reasons to use ack
+    * Testimonials
 
-* How to install
+* Installation
+    * How to install
+    * ack for Textmate users
 
-* ack for Textmate users
+* Community
+    * Mailing list signups
 
-* Testimonials
+* Documentation
+    * Manual
+    * FAQ
+    * Ack's command flags
+    * Ack's recognized filetypes
 
-* Ack's command flags
-
-* Ack's recognized filetypes
+* Community
 
 * Other tools (see below)
 
