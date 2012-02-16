@@ -1,1 +1,27 @@
 This is the source code for the website http://betterthangrep.com
+
+I want to make an overhaul of the site.  The front page is drab and
+boring and you can't find anything.
+
+The major sections I'd like to have from the front are:
+
+* Front page
+    * Screenshots (That I don't have yet)
+    * How to install + ack for Textmate users
+
+* Testimonials
+
+* Top 10 reasons to use ack
+
+* Ack's command flags
+
+* Ack's recognized filetypes
+
+* Other tools (see below)
+
+I figure each of those can be a differnet page, with five different tabs on the front.
+
+
+The "Other tools" is going to be a page about other ack-like tools.
+I don't have any content for that page, so we don't have to create
+the page.  Just know that we need to account for it.
