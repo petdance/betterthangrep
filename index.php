@@ -100,6 +100,11 @@ _   /|
         <h2>Testimonials about ack</h2>
 
         <p>
+        "Every once in a while something comes along that improves an idea so much,
+        you can't ignore it. Such a thing is Ack, the grep replacement."
+        -- <a href="http://www.unixlore.net/use-ack-as-better-grep.html">unixlore.net</a>
+
+        <p>
         "Whoa, this is *so* much better than grep it's not even funny."
         -- <a href="http://jacobian.org/">Jacob Kaplan-Moss</a>, creator of <a href="http://www.djangoproject.com/">Django</a>.
         </p>
