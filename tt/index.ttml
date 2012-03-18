@@ -29,6 +29,7 @@ _   /|
 
         <div class="feature-bullets">
             <dl>
+
                 <dt>Blazing Fast</dt>
                 <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
 
@@ -36,7 +37,7 @@ _   /|
                 <dd>ack is pure Perl, so it runs on a Windows Perl
                 (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
 
-
+            </dl>
         </div>
 
 
