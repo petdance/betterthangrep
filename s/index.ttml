@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta NAME="Author" Content="Andy Lester">
+        <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
+    </head>
+    <body bgcolor="white">
+        <?php require( 'parts/toolbar.php' ); ?>
+
+        <div class="billbox">
+            <div class="billhead">
+<pre>
+_   /|
+\'o.O'
+=(___)=
+   U    ack!
+</pre>
+            </div>
+            <div class="billtext">
+                <h1>ack is a tool like grep, optimized for programmers</h1>
+
+                <p>
+                Designed for programmers with large heterogeneous
+                trees of source code, ack is written purely in
+                portable Perl and takes advantage of the power of
+                Perl's regular expressions.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature-bullets">
+            <dl>
+                <dt>Blazing Fast</dt>
+                <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
+
+                <dt>Runs on Windows</dt>
+                <dd>ack is pure Perl, so it runs on a Windows Perl
+                (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
+
+
+        </div>
+
+
+
+<!-- Google tracking, must be just before close of body tag -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-631706-7']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script');
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+ga.setAttribute('async', 'true');
+document.documentElement.firstChild.appendChild(ga);
+})();
+</script>
+    </body>
+</html>
