@@ -4,7 +4,7 @@
         <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
     </head>
     <body bgcolor="white">
-        <?php require( 'parts/toolbar.php' ); ?>
+        [% PROCESS 'toolbar.tt' %]
 
         <div class="billbox">
             <div class="billhead">
