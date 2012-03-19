@@ -2,6 +2,7 @@
     <head>
         <meta NAME="Author" Content="Andy Lester">
         <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
+        <link rel="stylesheet" type="text/css" href="./btg.css" />
     </head>
     <body bgcolor="white">
         [% PROCESS 'toolbar.tt' %]
