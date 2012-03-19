@@ -15,6 +15,7 @@ crank: clean
 	mkdir -p $(BUILD)/ || true > /dev/null 2>&1
 	perl crank --sourcepath=$(SOURCE) --buildpath=$(BUILD)
 	cp -R static/* $(BUILD)/
+	chmod -R -w $(BUILD)/*
 
 test: crank
 	prove t/html.t
