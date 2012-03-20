@@ -2,7 +2,13 @@
     <head>
         <meta NAME="Author" Content="Andy Lester">
         <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="./btg.css" />
+
+      
+      
     </head>
     <body bgcolor="white">
         [% PROCESS 'toolbar.tt' %]
