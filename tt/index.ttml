@@ -38,6 +38,8 @@ _   /|
                 <dd>ack is pure Perl, so it runs on a Windows Perl
                 (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
 
+                <dt>One more point</dt>
+
             </dl>
         </div>
         [% PROCESS 'google.tt' %]
