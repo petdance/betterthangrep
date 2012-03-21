@@ -2,13 +2,9 @@
     <head>
         <meta NAME="Author" Content="Andy Lester">
         <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
-        
         <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="./btg.css" />
-
-      
-      
     </head>
     <body bgcolor="white">
         [% PROCESS 'toolbar.tt' %]
@@ -36,7 +32,6 @@ _   /|
 
         <div class="feature-bullets">
             <dl>
-
                 <dt>Blazing Fast</dt>
                 <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
 
@@ -44,8 +39,15 @@ _   /|
                 <dd>ack is pure Perl, so it runs on a Windows Perl
                 (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
 
-                <dt>One more point</dt>
+                <dt>Better Search</dt>
+                <dd>Searches entire trees by default while ignore Subversion, Git and other VCS directories
+                and other files that aren't your source code.</dd>
 
+                <dt>Fewer Keystrokes</dt>
+                <dd>ack uses fewer keystrokes for common tasks than grep</dd>
+
+                <dt>Free and open</dt>
+                <dd>Ack costs nothing.  It's 100% free and open source.</dd>
             </dl>
         </div>
         [% PROCESS 'google.tt' %]
