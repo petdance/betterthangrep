@@ -1,6 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: georgia, 'times new roman', serif;
-    background-color: green;
+    background: #f3f2f2 url('./bg_tile.jpg');
+
 }
+
+
+
+p, dd {
+  font-family:"PT Serif", Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:"PT Sans", Tahoma, sans-serif;
+}
+
+pre {
+    font-family:courier;
+  }
