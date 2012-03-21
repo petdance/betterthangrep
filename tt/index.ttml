@@ -10,8 +10,8 @@
       
       
     </head>
-    <body bgcolor="white">
-        [% PROCESS 'toolbar.tt' %]
+    <body>
+        [% PROCESS 'nav.tt' %]
 
         <div class="billbox">
             <div class="billhead">
