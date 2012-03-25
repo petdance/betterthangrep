@@ -31,6 +31,7 @@ _   /|
         </div>
 
         <div class="feature-bullets">
+            <h2>Top 5 reasons to use ack</h2>
             <dl>
                 <dt>Blazing Fast</dt>
                 <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
@@ -47,8 +48,18 @@ _   /|
                 <dd>ack uses fewer keystrokes for common tasks than grep</dd>
 
                 <dt>Free and open</dt>
-                <dd>Ack costs nothing.  It's 100% free and open source.</dd>
+                <dd>Ack costs nothing.  It's 100% free and open source under
+                <a href="http://www.opensource.org/licenses/Artistic-2.0">Artistic License v2.0</a>.
+                </dd>
             </dl>
+        </div>
+
+        <div class="feature-install">
+            <h2>How to install</h2>
+        </div>
+
+        <div class="feature-testimonials">
+            <h2>Testimonials</h2>
         </div>
 
         <div class="footer">
