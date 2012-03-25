@@ -11,8 +11,13 @@ p, dd {
   font-family:"PT Serif", Georgia, serif;
 }
 
-h1, h2, h3, h4, h5, h6, .nav {
+h1, h2, h3, h4, h5, h6, .nav, .footer {
   font-family:"PT Sans", Tahoma, sans-serif;
+}
+
+.footer {
+  font-size:12px;
+  text-align:center;
 }
 
 pre {
@@ -105,9 +110,8 @@ pre {
 
 
 .billtext {
-  float:right;
-  width:60%;
-  padding:  20px 30px 0 0;
+  overflow:hidden;
+  padding:  20px 30px 0 30px;
 }
 
 .billtext h1 {
@@ -115,17 +119,45 @@ pre {
   margin:0;
 }
 
-.feature-bullets {
-  margin:auto;
+
+.content {
+  margin:15px auto;
   width:90%;
-  margin-top:30px;
-  display:block;
+  overflow:hidden;
   clear:both;
 }
 
+.feature-bullets {
+  float:left;
+  display:block;
+  clear:both;
+  width:65%;
+ padding:10px;
+  background-color:#dcdcdc;
+  overflow:hidden;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+.feature-install, .feature-testimonials {
+  background-color:#dcdcdc;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  border-radius:10px;
+  float:right;
+  width:30%;
+  padding:10px;
+  margin-bottom:10px;
+}
 
 
-
+.footer {
+  overflow:hidden;
+  margin:10px auto 30px auto;
+  width:90%;
+}
 
 
 
