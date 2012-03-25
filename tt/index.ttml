@@ -66,8 +66,8 @@ _   /|
 
       </div>
         <div class="footer">
-            Ack is copyright 2005-2012 Andy Lester.  Ack is free software;
-            you can redistribute it and/or modify it under the terms of the
+            Ack is copyright 2005-2012 <a href="http://petdance.com/">Andy Lester</a>.
+            Ack is free software; you can redistribute it and/or modify it under the terms of the
             <a href="http://www.opensource.org/licenses/Artistic-2.0">Artistic License v2.0</a>.
         </div>
         [% PROCESS 'google.tt' %]
