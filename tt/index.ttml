@@ -15,11 +15,11 @@
 _   /|
 \'o.O'
 =(___)=
-   U    ack!
+   U    <!--ack!-->
 </pre>
             </div>
             <div class="billtext">
-                <h1>ack is a tool like grep, optimized for programmers</h1>
+              <h1>ack is a tool like grep, <br />optimized for programmers</h1>
 
                 <p>
                 Designed for programmers with large heterogeneous
