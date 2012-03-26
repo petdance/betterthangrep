@@ -146,12 +146,14 @@ pre {
   clear:both;
 }
 
+
 .feature-bullets {
   float:left;
   display:block;
   clear:both;
   width:65%;
  padding:10px;
+
   overflow:hidden;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -178,8 +180,15 @@ pre {
 }
 
 
+.feature-bullets dt {
+  font-family:"PT Sans", arial, sans-serif;
+  font-weight:bold;
+  margin:0 0 0 30px;
+}
 
-
+.feature-bullets dd {
+  margin:0 0 20px 30px;
+}
 
 
 
