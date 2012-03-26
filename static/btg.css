@@ -133,16 +133,15 @@ pre {
   clear:both;
   width:65%;
  padding:10px;
-  background-color:#dcdcdc;
   overflow:hidden;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-
+  background: #fbfbfb url('./bg_tile_white.jpg');
 }
 
 .feature-install, .feature-testimonials {
-  background-color:#dcdcdc;
+  background: #fbfbfb url('./bg_tile_white.jpg');
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   border-radius:10px;
