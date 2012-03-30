@@ -1,29 +1,17 @@
+/* fonts */
+p, dd, dt { font-family:"PT Serif", Georgia, serif;}
+h1, h2, h3, h4, h5, h6, .nav, .footer {font-family:"PT Sans", Tahoma, sans-serif;}
+.footer {font-size:12px; text-align:center;}
+pre {font-family:courier;}
+
+
+/* Header */
+
 body {
     margin: 0;
     padding: 0;
     background: #f3f2f2 url('./bg_tile.jpg');
-
 }
-
-
-
-p, dd {
-  font-family:"PT Serif", Georgia, serif;
-}
-
-h1, h2, h3, h4, h5, h6, .nav, .footer {
-  font-family:"PT Sans", Tahoma, sans-serif;
-}
-
-.footer {
-  font-size:12px;
-  text-align:center;
-}
-
-pre {
-    font-family:courier;
-  }
-
 
 .logo {
   font-family:courier;
@@ -35,6 +23,7 @@ pre {
   margin: 0 10px;
   padding: 8px 0;
 }
+
 .logo a {
   text-decoration:none;
   color:#fff;
@@ -49,12 +38,10 @@ pre {
   margin:auto;
   width:90%;
   background-color:#e63a00;
-
   overflow:hidden;
   -moz-border-radius: 0 0 10px 10px;
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
-
 }
 
 .nav ul {
@@ -70,8 +57,6 @@ pre {
   float:left;
 }
 
-
-
 .nav li a {
   float:left;
   text-align:center;
@@ -85,6 +70,7 @@ pre {
 .nav li a:hover {
   background-color:#cf3500;
 }
+
 
 /*footer */
 .footer {
@@ -105,8 +91,7 @@ pre {
 
 
 
-/* front page middle content */
-
+/* front page title content */
 .billbox {
   margin:auto;
   width:90%;
@@ -139,6 +124,8 @@ pre {
 }
 
 
+/* main content area */
+
 .content {
   margin:15px auto;
   width:90%;
@@ -146,14 +133,12 @@ pre {
   clear:both;
 }
 
-
 .feature-bullets {
   float:left;
   display:block;
   clear:both;
   width:65%;
- padding:10px;
-
+  padding:10px;
   overflow:hidden;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -172,19 +157,46 @@ pre {
   margin-bottom:10px;
 }
 
-
 .feature-bullets dt {
-  font-family:"PT Sans", arial, sans-serif;
   font-weight:bold;
-  margin:0 0 0 30px;
+  margin:0 0 0 0;
 }
 
 .feature-bullets dd {
-  margin:0 0 20px 30px;
+  margin:0 0 14px 0px;
+  padding-bottom:14px;
+  border-bottom:1px solid #dcdcdc;
 }
 
+.feature-bullets dd:last-child {
+border-bottom:none;
+}
 
+.feature-bullets dt:before {
+  display:block;
+  float:left;
+  margin-right:10px;}
 
+dt.fast:before {
+  content:url('./lightning.png');
+  }
+  
+dt.pc:before {
+  content:url('./pcwindows.png');
+  }
+  
+dt.search:before {
+  content:url('./search.png');
+  }
+  
+dt.keystrokes:before {
+  content:url('./keystrokes.png');
+  }
+  
+dt.open:before {
+  content:url('./open.png');
+  }
+	
 
 
 
