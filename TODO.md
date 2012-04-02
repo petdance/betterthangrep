@@ -4,3 +4,6 @@
     * others.html should be /others/
 * Stylized blockquote
 * padding/margin issues with headers and body content.
+* fix w3.org validation errors
+* testimonial CSS Tweaks
+* change a:hover background from rgba to hex
