@@ -27,6 +27,7 @@ sub main {
     index.html
     installation.html
     community.html
+    others.html
     );
 
     MAIN: {

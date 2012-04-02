@@ -5,7 +5,7 @@
 _   /|
 \'o.O'
 =(___)=
-   U    <!--ack!-->
+   U      ack!
 </pre>
     </div>
     <div class="billtext">
@@ -14,7 +14,7 @@ _   /|
         <p>
         Designed for programmers with large heterogeneous
         trees of source code, ack is written purely in
-        portable Perl and takes advantage of the power of
+        portable Perl 5 and takes advantage of the power of
         Perl's regular expressions.
         </p>
     </div>

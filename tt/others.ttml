@@ -1,0 +1,34 @@
+[% WRAPPER wrapper/page.ttml title='Other ack-like tools for searching source code' %]
+
+<h1>Other tools like ack</h1>
+
+There are many ways to search source code that are more flexible
+and tuned to programmers than straight <code>grep</code>.  I welcome
+additions to this list.
+
+<h2>grin</h2>
+
+"A grep program configured the way I like it", written in Python
+by Robert Kern.
+
+http://pypi.python.org/pypi/grin
+
+<h2>rak</h2>
+
+A straight clone of ack, with some visual tweaks, written in Ruby
+by Daniel Lucraft.
+
+http://rak.rubyforge.org/
+
+<h2>glark</h2>
+
+The biggest departure from ack, glark adds many more features like
+the ability to AND and OR your patterns.  It's written in Ruby by
+Jeff Page.
+
+<h2>Let us know about others</h2>
+
+If you have a better tool for searching code than <code>grep</code>, please let me at
+andy@petdance.com.
+
+[% END %]

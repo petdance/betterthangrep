@@ -1,6 +1,72 @@
 [% WRAPPER wrapper/page.ttml title='ack: Installation' %]
 
 <div class="content">
-<h2>Here's how you install</h2>
+    <h1>How to install ack</h1>
+
+    <p>
+    Ack is highly portable, and will run on any machine running Perl 5.8.8 or higher.
+    </p>
+
+    <p>
+    You may install ack with any of these methods.
+    </p>
+
+    <h2>Install ack via Perl CPAN module</h2>
+
+    <p>
+    If you use Perl regularly, you can install ack's module, <a href="http://search.cpan.org/dist/ack">App::Ack</a>.
+    </p>
+
+    <p>
+    Installing via CPAN shell means that the shell can automatically
+    tell you when ack has updates.  The CPAN is also the primary
+    distribution channel for ack.  All packages below derive from
+    here.
+    </p>
+
+    <h2>Install the ack executable</h2>
+
+    <p>
+    The "ack standalone" is a single Perl program, around 2,800
+    lines of plain text.  It combines the ack program and all its
+    modules into a single text file you can download and install
+    anywhere you can put a shell script.  If you don't have sysadmin
+    rights on your machine, this is the way to go.
+    </p>
+
+    <h2>Install a package for your specific OS</h2>
+
+    <p>
+    ack has been repackaged for most Linux distributions and OS X.
+    It is usually called "ack-grep" because "ack" was already a
+    package on Debian for Kanji translation.
+    </p>
+    <ul>
+        <li>
+        </li>
+        <li>
+        <b>Download the
+            <a href="http://betterthangrep.com/ack-standalone">standalone version</a></b> of ack
+        that requires no modules beyond what's in core Perl, and putting it in your path.
+        If you don't want to mess with setting up Perl's CPAN shell, this is easiest.
+        <blockquote>
+            <code>
+                curl http://betterthangrep.com/ack-standalone &gt; ~/bin/ack &amp;&amp; chmod 0755 !#:3
+            </code>
+        </blockquote>
+        </li>
+        <li>Install the <b>Macport</b>: <a href="http://trac.macports.org/browser/trunk/dports/perl/p5-app-ack/Portfile">http://trac.macports.org/browser/trunk/dports/perl/p5-app-ack/Portfile</a></li>
+        <li>Install the <b>Debian package</b>: <a href="http://packages.debian.org/search?keywords=ack-grep">ack-grep</a>
+        <ul>
+            <li>To install ack-grep as "ack" instead of "ack-grep", use this command:<br>
+            <tt>  sudo dpkg-divert  --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep</tt></li>
+        </ul>
+        </li>
+        <li>Install the <b>Ubuntu package</b>: ack-grep</li>
+        <li>Install the <b>Fedora package</b>: ack</li>
+        <li>Install the <b>Gentoo package</b>: sys-apps/ack</li>
+        <li>Install the <b>Arch package</b>: community/ack</li>
+    </ul>
+</div>
 
 [% END %]
