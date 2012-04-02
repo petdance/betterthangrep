@@ -15,59 +15,6 @@
 
 
 
-        <h2>Top 10 reasons to use ack instead of grep.</h2>
-        <ol>
-            <li>It's <b>blazingly fast</b> because it only searches the stuff you want searched.</li>
-            <li>ack is pure Perl, so it <b>runs on Windows</b> just fine. It has <b>no dependencies</b> other than Perl 5.</li>
-            <li>The <a href="http://betterthangrep.com/ack-standalone">standalone
-                version</a> uses no non-standard modules, so you can put it in your
-            <tt>~/bin</tt> without fear.</li>
-            <li>
-            Searches recursively through directories by default, while ignoring
-            <tt>.svn</tt>, <tt>CVS</tt> and other VCS directories.
-            <ul>
-                <li>
-                Which would you rather type?<br>
-                <tt>$ grep pattern $(find . -type f | grep -v '\.svn')</tt><br>
-                <tt>$ ack pattern</tt>
-                </li>
-            </ul>
-            </li>
-            <li>ack <b>ignores most of the crap you don't want to search</b>
-            <ul>
-                <li>VCS directories
-                <li><i>blib</i>, the Perl build directory
-                <li>backup files like <i>foo~</i> and <i>#foo#</i>
-                <li>binary files, core dumps, etc
-            </ul>
-            </li>
-            <li>Ignoring .svn directories means that <b>ack is faster than grep</b> for searching through trees.</li>
-            <li><b>Lets you specify file types to search</b>, as in <tt>--perl</tt> or <tt>--nohtml</tt>.
-            <ul>
-                <li>Which would you rather type?<br>
-                <tt>$ grep pattern $(find . -name '*.pl' -or -name '*.pm' -or  -name '*.pod' | grep -v .svn)</tt><br>
-                <tt>$ ack --perl pattern</tt>
-                </li>
-            </ul>
-            Note that ack's <tt>--perl</tt> also checks the shebang lines of
-            files without suffixes, which the find command will not.
-            <li>File-filtering capabilities usable without searching with <tt>ack -f</tt>.  This lets you <b>create lists of files of a given type</b>.<br>
-            <tt>$ ack -f --perl &gt; all-perl-files</tt>
-            <li>Nicer and more flexible <b>color highlighting</b> of search results.</li>
-            <li>Uses <b>real Perl regular expressions</b>, not a GNU subset.
-            <li>Allows you to specify output using Perl's special variables.  To find all <tt>#include</tt> files in C programs:
-            <ul>
-                <li><tt>ack --cc '#include\s+&lt;(.*)&gt;' --output '$1' -h</tt>
-            </ul>
-            <li>
-            Many command-line switches are the same as in GNU grep, so you don't have to relearn two sets:<br>
-            <tt>-w</tt> does word-only searching<br>
-            <tt>-c</tt> shows counts per file of matches<br>
-            <tt>-l</tt> gives the filename instead of matching lines<br>
-            etc.
-            </li>
-            <li><b>Command name is 25% fewer characters to type!</b>  Save days of free-time! Heck, it's 50% shorter compared to <tt>grep -r</tt>.</li>
-        </ol>
         <hr>
         <h2>ack's command flags</h2>
 
@@ -269,21 +216,3 @@ Note that some extensions may appear in multiple types.  For example,
     --[no]xml          .xml .dtd .xsl .xslt .ent
     --[no]yaml         .yaml .yml
 </pre>
-
-
-<!-- Google tracking, must be just before close of body tag -->
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-631706-7']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script');
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
-'http://www') + '.google-analytics.com/ga.js';
-ga.setAttribute('async', 'true');
-document.documentElement.firstChild.appendChild(ga);
-})();
-</script>
-    </body>
-</html>

@@ -29,6 +29,7 @@ sub main {
     community.html
     others.html
     testimonials.html
+    features.html
     );
 
     MAIN: {
