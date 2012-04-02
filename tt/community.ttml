@@ -1,0 +1,6 @@
+[% WRAPPER wrapper/page.ttml title='ack: Community' %]
+
+<div class="content">
+<h2>Mailing lists</h2>
+
+[% END %]

@@ -1,75 +1,57 @@
-<html>
-    <head>
-        <meta NAME="Author" Content="Andy Lester">
-        <title>ack 1.96 -- better than grep, a source code search tool for programmers</title>
-        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="./btg.css" />
-    </head>
-    <body>
-        [% PROCESS 'nav.tt' %]
-
-        <div class="billbox">
-            <div class="billhead">
+[% WRAPPER wrapper/page.ttml title='ack 1.96 -- better than grep, a source code search tool for programmers' %]
+<div class="billbox">
+    <div class="billhead">
 <pre>
 _   /|
 \'o.O'
 =(___)=
    U    <!--ack!-->
 </pre>
-            </div>
-            <div class="billtext">
-              <h1>ack is a tool like grep, optimized for programmers</h1>
+    </div>
+    <div class="billtext">
+        <h1>ack is a tool like grep, optimized for programmers</h1>
 
-                <p>
-                Designed for programmers with large heterogeneous
-                trees of source code, ack is written purely in
-                portable Perl and takes advantage of the power of
-                Perl's regular expressions.
-                </p>
-            </div>
-        </div>
+        <p>
+        Designed for programmers with large heterogeneous
+        trees of source code, ack is written purely in
+        portable Perl and takes advantage of the power of
+        Perl's regular expressions.
+        </p>
+    </div>
+</div>
 
+<div class="content">
+    <div class="feature-bullets">
+        <h2>Top 5 reasons to use ack</h2>
+        <dl>
+            <dt class="fast">Blazing Fast</dt>
+            <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
 
-        <div class="content">
-        <div class="feature-bullets">
-            <h2>Top 5 reasons to use ack</h2>
-            <dl>
-                <dt class="fast">Blazing Fast</dt>
-                <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
+            <dt class="pc">Runs on Windows</dt>
+            <dd>ack is pure Perl, so it runs on a Windows Perl
+            (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
 
-                <dt class="pc">Runs on Windows</dt>
-                <dd>ack is pure Perl, so it runs on a Windows Perl
-                (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
+            <dt class="search">Better Search</dt>
+            <dd>Searches entire trees by default while ignore Subversion, Git and other VCS directories
+            and other files that aren't your source code.</dd>
 
-                <dt class="search">Better Search</dt>
-                <dd>Searches entire trees by default while ignore Subversion, Git and other VCS directories
-                and other files that aren't your source code.</dd>
+            <dt class="keystrokes">Fewer Keystrokes</dt>
+            <dd>ack uses fewer keystrokes for common tasks than grep</dd>
 
-                <dt class="keystrokes">Fewer Keystrokes</dt>
-                <dd>ack uses fewer keystrokes for common tasks than grep</dd>
+            <dt class="open">Free and open</dt>
+            <dd>Ack costs nothing.  It's 100% free and open source under
+            <a href="http://www.opensource.org/licenses/Artistic-2.0">Artistic License v2.0</a>.
+            </dd>
+        </dl>
+    </div>
 
-                <dt class="open">Free and open</dt>
-                <dd>Ack costs nothing.  It's 100% free and open source under
-                <a href="http://www.opensource.org/licenses/Artistic-2.0">Artistic License v2.0</a>.
-                </dd>
-            </dl>
-        </div>
+    <div class="feature-install">
+        <h2>How to install</h2>
+    </div>
 
-        <div class="feature-install">
-            <h2>How to install</h2>
-        </div>
+    <div class="feature-testimonials">
+        <h2>Testimonials</h2>
+    </div>
 
-        <div class="feature-testimonials">
-            <h2>Testimonials</h2>
-        </div>
-
-      </div>
-        <div class="footer">
-          <p>Ack is copyright 2005-2012 <a href="http://petdance.com/">Andy Lester</a>.
-            Ack is free software; you can redistribute it and/or modify it under the terms of the
-            <a href="http://www.opensource.org/licenses/Artistic-2.0">Artistic License v2.0</a>.</p>
-        </div>
-        [% PROCESS 'google.tt' %]
-    </body>
-</html>
+</div>
+[% END %]

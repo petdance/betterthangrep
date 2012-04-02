@@ -1,0 +1,6 @@
+[% WRAPPER wrapper/page.ttml title='ack: Installation' %]
+
+<div class="content">
+<h2>Here's how you install</h2>
+
+[% END %]
