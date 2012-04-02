@@ -24,19 +24,20 @@ _   /|
     <div class="feature-bullets">
         <h2>Top 5 reasons to use ack</h2>
         <dl>
-            <dt class="fast">Blazing Fast</dt>
+            <dt class="fast">Blazing fast</dt>
             <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
 
-            <dt class="pc">Runs on Windows</dt>
-            <dd>ack is pure Perl, so it runs on a Windows Perl
-            (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
-
-            <dt class="search">Better Search</dt>
+            <dt class="search">Better search</dt>
             <dd>Searches entire trees by default while ignore Subversion, Git and other VCS directories
             and other files that aren't your source code.</dd>
 
-            <dt class="keystrokes">Fewer Keystrokes</dt>
-            <dd>ack uses fewer keystrokes for common tasks than grep</dd>
+            <dt class="keystrokes">Designed for code search</dt>
+            <dd>Where grep is a general text search tool, ack is especially for the programmer searching source code.
+            Common tasks take fewer keystrokes.</dd>
+
+            <dt class="pc">Highly portable</dt>
+            <dd>ack is pure Perl, so it easily runs on a Windows installation Perl
+            (like <a href="http://strawberryperl.com/">Strawberry Perl</a>) without modifications.</dd>
 
             <dt class="open">Free and open</dt>
             <dd>Ack costs nothing.  It's 100% free and open source under

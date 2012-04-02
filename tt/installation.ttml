@@ -32,11 +32,12 @@
     <h2>Install the ack executable</h2>
 
     <p>
-    The "ack standalone" is a single Perl program, around 2,800
-    lines of plain text.  It combines the ack program and all its
-    modules into a single text file you can download and install
-    anywhere you can put a shell script.  If you don't have sysadmin
-    rights on your machine, this is the way to go.
+    The <a href="http://betterthangrep.com/ack-standalone">standalone
+    version of ack</a> is a single Perl program, around 2,800 lines
+    of plain text.  It combines the ack program and all its modules
+    into a single text file you can download and install anywhere
+    you can put a shell script.  If you don't have sysadmin rights
+    on your machine, this is the way to go.
     </p>
 
     <blockquote><code>
