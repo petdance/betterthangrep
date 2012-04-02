@@ -1,6 +1,12 @@
 [% WRAPPER wrapper/page.ttml title='Testimonials about ack' %]
 
 <div class="content">
+
+<h1>Testimonials</h1>
+    <p>
+    People love ack.  Here are a few of them.
+    </p>
+
     <p>
     "Every once in a while something comes along that improves an idea so much,
     you can't ignore it. Such a thing is Ack, the grep replacement."

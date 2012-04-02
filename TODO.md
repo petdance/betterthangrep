@@ -7,3 +7,4 @@
 * fix w3.org validation errors
 * testimonial CSS Tweaks
 * change a:hover background from rgba to hex
+* On the testimonials page, link to the installation page inline from the quotes.  And any other relevant.
