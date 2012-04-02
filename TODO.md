@@ -8,6 +8,7 @@
 * testimonial CSS Tweaks
 * change a:hover background from rgba to hex
 * On the testimonials page, link to the installation page inline from the quotes.  And any other relevant.
+* Give props to designer dude and Jeana, along with links back to respective homepages.
 
 # Maybe things
 
