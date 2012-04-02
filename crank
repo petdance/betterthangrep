@@ -32,7 +32,7 @@ sub main {
 
     MAIN: {
         my %tt_settings = (
-            INCLUDE_PATH => [ qw( tt ) ],
+            INCLUDE_PATH => [ qw( tt tt/wrapper ) ],
             OUTPUT_PATH  => $buildpath,
             DEBUG        => DEBUG_UNDEF,
             TRIM         => CHOMP_ALL,
