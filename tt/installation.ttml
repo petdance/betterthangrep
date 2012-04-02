@@ -4,6 +4,10 @@
     <h1>How to install ack</h1>
 
     <p>
+    The current version of ack is version 1.96, released September 18, 2011.
+    </p>
+
+    <p>
     Ack is highly portable, and will run on any machine running Perl 5.8.8 or higher.
     </p>
 
@@ -14,7 +18,8 @@
     <h2>Install ack via Perl CPAN module</h2>
 
     <p>
-    If you use Perl regularly, you can install ack's module, <a href="http://search.cpan.org/dist/ack">App::Ack</a>.
+    If you use Perl regularly, you can install ack's module,
+    <a href="http://search.cpan.org/dist/ack">App::Ack</a>.
     </p>
 
     <p>
@@ -27,11 +32,12 @@
     <h2>Install the ack executable</h2>
 
     <p>
-    The "ack standalone" is a single Perl program, around 2,800
-    lines of plain text.  It combines the ack program and all its
-    modules into a single text file you can download and install
-    anywhere you can put a shell script.  If you don't have sysadmin
-    rights on your machine, this is the way to go.
+    The <a href="http://betterthangrep.com/ack-standalone">standalone
+    version of ack</a> is a single Perl program, around 2,800 lines
+    of plain text.  It combines the ack program and all its modules
+    into a single text file you can download and install anywhere
+    you can put a shell script.  If you don't have sysadmin rights
+    on your machine, this is the way to go.
     </p>
 
     <blockquote><code>

@@ -29,6 +29,8 @@ sub main {
     community.html
     others.html
     testimonials.html
+    why-ack.html
+    documentation.html
     );
 
     MAIN: {
