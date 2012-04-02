@@ -28,6 +28,7 @@ sub main {
     installation.html
     community.html
     others.html
+    testimonials.html
     );
 
     MAIN: {
