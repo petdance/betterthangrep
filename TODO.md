@@ -14,3 +14,7 @@
 
 * Add sidebars to inside pages.  Maybe the Testimonials page has a sidebar link to Installation, for example.
 * Link to my blog and/or my book.  I have a huge amount of traffic coming to btg.com, and I should take advantage of it.
+
+# Missing from the old page
+* Link to Changelog
+*

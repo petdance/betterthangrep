@@ -4,6 +4,10 @@
     <h1>How to install ack</h1>
 
     <p>
+    The current version of ack is version 1.96, released September 18, 2011.</h2>
+    </p>
+
+    <p>
     Ack is highly portable, and will run on any machine running Perl 5.8.8 or higher.
     </p>
 
@@ -14,7 +18,8 @@
     <h2>Install ack via Perl CPAN module</h2>
 
     <p>
-    If you use Perl regularly, you can install ack's module, <a href="http://search.cpan.org/dist/ack">App::Ack</a>.
+    If you use Perl regularly, you can install ack's module,
+    <a href="http://search.cpan.org/dist/ack">App::Ack</a>.
     </p>
 
     <p>

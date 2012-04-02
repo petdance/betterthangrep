@@ -30,6 +30,7 @@ sub main {
     others.html
     testimonials.html
     why-ack.html
+    documentation.html
     );
 
     MAIN: {
