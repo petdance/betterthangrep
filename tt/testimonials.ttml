@@ -3,9 +3,6 @@
 <div class="content">
 
 <h1>Testimonials</h1>
-    <p>
-    People love ack.  Here are a few of them.
-    </p>
 
     <p>
     "Every once in a while something comes along that improves an idea so much,
@@ -17,7 +14,6 @@
     "Whoa, this is *so* much better than grep it's not even funny."
     -- <a href="http://jacobian.org/">Jacob Kaplan-Moss</a>, creator of <a href="http://www.djangoproject.com/">Django</a>.
     </p>
-
 
     <p>
     "Thanks for creating ack and sharing it with the world.  It
