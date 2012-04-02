@@ -5,7 +5,7 @@
 _   /|
 \'o.O'
 =(___)=
-   U      ack!
+   U    ack!
 </pre>
     </div>
     <div class="billtext">
@@ -47,10 +47,23 @@ _   /|
 
     <div class="feature-install">
         <h2>How to install</h2>
+        <p>
+        ack is simple to install, via CPAN, package or simple download.
+        <a href="./installation.html">Read how</a>.
+        </p>
     </div>
 
     <div class="feature-testimonials">
-        <h2>Testimonials</h2>
+        <h2>People love ack</h2>
+
+        <p>
+        "Every once in a while something comes along that improves an idea so much,
+        you can't ignore it. Such a thing is Ack, the grep replacement."
+        </p>
+
+        <p>
+        Read <a href="./testimonials.html">what else people are saying</a>.
+        </p>
     </div>
 
 </div>
