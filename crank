@@ -39,8 +39,8 @@ sub main {
             OUTPUT_PATH  => $buildpath,
             DEBUG        => DEBUG_UNDEF,
             TRIM         => CHOMP_ALL,
-            PRE_CHOMP    => 1,
-            POST_CHOMP   => 1,
+            PRE_CHOMP    => CHOMP_COLLAPSE,
+            POST_CHOMP   => CHOMP_ALL,
             ENCODING     => 'utf8',
         );
 
