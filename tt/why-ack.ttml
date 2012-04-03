@@ -15,7 +15,7 @@
 
     <p>
     ack is pure Perl, so it runs on Windows just fine. It has no
-    dependencies other than Perl 5.  [% WRAPPER link.tt page='installation' %]Installation is a snap[% END %].
+    dependencies other than Perl 5.  [% WRAPPER link.tt page='install' %]Installation is a snap[% END %].
     </p>
 
     <h2>3. It ignores VCS directories</h2>
@@ -124,7 +124,7 @@
 
     <h2>What are you waiting for?</h2>
     <p>
-    [% WRAPPER link.tt page='installation' %]Installation[% END %] is a snap.
+    [% WRAPPER link.tt page='install' %]Installation[% END %] is a snap.
     Try ack for yourself.
     </p>
 

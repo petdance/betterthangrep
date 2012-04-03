@@ -17,9 +17,11 @@
 
     <p>
     "Thanks for creating ack and sharing it with the world.  It
-    makes my days just a little more pleasant.  I'm glad to have it
-    in my toolbox.  That installation is as simple as downloading the
-    standalone version and chmodding is a nice touch."
+    makes my days just a little more pleasant.  I'm glad to have
+    it in my toolbox.  That
+    [% WRAPPER link.tt page='install' %]installation is as simple
+    as downloading the standalone version[% END %] and chmodding
+    is a nice touch."
     -- <a href="http://www.highprogrammer.com/alan/">Alan De Smet</a>
     </p>
 

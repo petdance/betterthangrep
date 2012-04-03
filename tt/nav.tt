@@ -2,12 +2,10 @@
 <h1 class="logo">[% WRAPPER link.tt page='' %]ack![% END %]</h1>
     <ul>
         <li>[% WRAPPER link.tt page='why-ack' %]Why ack?[% END %]</li>
-        <li>[% WRAPPER link.tt page='testimonials' %]testimonials[% END %]</li>
-        <li>[% WRAPPER link.tt page='installation' %]Installation[% END %]</li>
+        <li>[% WRAPPER link.tt page='testimonials' %]Testimonials[% END %]</li>
+        <li>[% WRAPPER link.tt page='install' %]Install[% END %]</li>
         <li>[% WRAPPER link.tt page='documentation' %]Documentation[% END %]</li>
         <li>[% WRAPPER link.tt page='community' %]Community[% END %]</li>
         <li>[% WRAPPER link.tt page='more-tools' %]More Tools[% END %]</li>
     </ul>
 </div>
-
-
