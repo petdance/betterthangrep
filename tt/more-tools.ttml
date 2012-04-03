@@ -29,8 +29,8 @@
     and tuned to programmers than straight <code>grep</code>.  I
     suggest you take a look at some of these alternatives, for they
     may suit your needs better than ack.  If you have any suggestions
-    to add to this list,
-    <a href="mailto:andy@petdance.com">please let me know</a>.
+    to add to this list, please let me know at
+    [% WRAPPER email.tt %]andy@petdance.com[% END %].
     <p>
 
     <h2>grin</h2>
@@ -65,12 +65,6 @@
     [% WRAPPER selflink.tt %]http://www.incava.org/projects/glark[% END %]
     </p>
 
-    <h2>Let us know about others</h2>
-
-    <p>
-    If you have a better tool for searching code than <code>grep</code>,
-    please let me at [% WRAPPER email.tt %]andy@petdance.com[% END %].
-    </p>
 </div>
 
 [% END %]

@@ -28,7 +28,7 @@ _   /|
             <dd>It's fast because it only searches the stuff it makes sense to search.</dd>
 
             <dt class="search">Better search</dt>
-            <dd>Searches entire trees by default while ignore Subversion, Git and other VCS directories
+            <dd>Searches entire trees by default while ignoring Subversion, Git and other VCS directories
             and other files that aren't your source code.</dd>
 
             <dt class="keystrokes">Designed for code search</dt>

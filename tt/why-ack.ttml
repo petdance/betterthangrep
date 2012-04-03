@@ -47,7 +47,7 @@
 
     <p>
     If you have a big project with many different languages combined, it's easy to add
-    <tt>--perl</tt> to skip Perl files, or use <tt>--nohtml</tt> to skip HTML.
+    <tt>--perl</tt> to search only Perl files, or use <tt>--nohtml</tt> to search everything except HTML.
     </p>
 
     <p>
