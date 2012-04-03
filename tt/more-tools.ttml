@@ -1,0 +1,76 @@
+[% WRAPPER wrapper/page.ttml title='More tools for searching source code' %]
+
+<div class="content">
+
+    <h1>Tools that work with ack</h1>
+
+    <h2>AckMate</h2>
+
+    <p>
+    Users of <a href="http://macromates.com/">TextMate</a>, the
+    programmer's editor for the Mac, can use the AckMate plugin by
+    Trevor Squires:
+    </p>
+
+    <blockquote>
+        TextMate users know just how slow its "Find in Project"
+        can be with large source trees. That's why you need
+        "ack-in-project" &mdash; a TextMate bundle that uses
+        the super-speedy "ack" tool to search your code
+        FAST. It gives you beautiful, clickable results just
+        as fast as "ack" can find them. Check it out at:
+        <a href="https://github.com/protocool/ackmate">https://github.com/protocool/ackmate</a>
+    </blockquote>
+
+    <h1>Alternatives to ack</h1>
+
+    <p>
+    There are many ways to search source code that are more flexible
+    and tuned to programmers than straight <code>grep</code>.  I
+    suggest you take a look at some of these alternatives, for they
+    may suit your needs better than ack.  If you have any suggestions
+    to add to this list,
+    <a href="mailto:andy@petdance.com">please let me know</a>.
+    <p>
+
+    <h2>grin</h2>
+
+    <p>
+    "A grep program configured the way I like it", written in Python
+    by Robert Kern.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://pypi.python.org/pypi/grin[% END %]
+    </p>
+
+    <h2>rak</h2>
+
+    <p>
+    A straight clone of ack, with some visual tweaks, written in Ruby
+    by Daniel Lucraft.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://rak.rubyforge.org/[% END %]
+    </p>
+
+    <h2>glark</h2>
+
+    The biggest departure from ack, glark adds many more features like
+    the ability to AND and OR your patterns.  It's written in Ruby by
+    Jeff Page.
+
+    <p>
+    [% WRAPPER selflink.tt %]http://www.incava.org/projects/glark[% END %]
+    </p>
+
+    <h2>Let us know about others</h2>
+
+    <p>
+    If you have a better tool for searching code than <code>grep</code>,
+    please let me at [% WRAPPER email.tt %]andy@petdance.com[% END %].
+    </p>
+</div>
+
+[% END %]
