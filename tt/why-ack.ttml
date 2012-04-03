@@ -14,8 +14,8 @@
     <h2>2. It's portable</h2>
 
     <p>
-    ack is pure Perl, so it <b>runs on Windows</b> just fine. It has <b>no dependencies</b> other than Perl 5.
-    <a href="installation.html">Installation is a snap</a>.
+    ack is pure Perl, so it runs on Windows just fine. It has no
+    dependencies other than Perl 5.  [% WRAPPER link.tt page='installation' %]Installation is a snap[% END %].
     </p>
 
     <h2>3. It ignores VCS directories</h2>
@@ -124,7 +124,8 @@
 
     <h2>What are you waiting for?</h2>
     <p>
-    <a href="installation.html">Installation</a> is a snap.  Try ack for yourself.
+    [% WRAPPER link.tt page='installation' %]Installation[% END %] is a snap.
+    Try ack for yourself.
     </p>
 
 </div>
