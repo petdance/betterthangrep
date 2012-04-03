@@ -1,14 +1,8 @@
-[% WRAPPER wrapper/page.ttml title='Other ack-like tools for searching source code' %]
+[% WRAPPER wrapper/page.ttml title='More tools for searching source code' %]
 
 <div class="content">
 
-    <h1>Other tools like ack</h1>
-
-    <p>
-    There are many ways to search source code that are more flexible
-    and tuned to programmers than straight <code>grep</code>.  I welcome
-    additions to this list.
-    </p>
+    <h1>Tools that work with ack</h1>
 
     <h2>AckMate</h2>
 
@@ -27,6 +21,17 @@
         as fast as "ack" can find them. Check it out at:
         <a href="https://github.com/protocool/ackmate">https://github.com/protocool/ackmate</a>
     </blockquote>
+
+    <h1>Alternatives to ack</h1>
+
+    <p>
+    There are many ways to search source code that are more flexible
+    and tuned to programmers than straight <code>grep</code>.  I
+    suggest you take a look at some of these alternatives, for they
+    may suit your needs better than ack.  If you have any suggestions
+    to add to this list,
+    <a href="mailto:andy@petdance.com">please let me know</a>.
+    <p>
 
     <h2>grin</h2>
 

@@ -1,11 +1,13 @@
 <div class="nav">
-<h1 class="logo"><a href="./">ack!</a></h1>
+<h1 class="logo">[% WRAPPER link.tt page='' %]ack![% END %]</h1>
     <ul>
-        <li><a href="./installation.html">Installation</a></li>
-        <li><a href="./why-ack.html">Why use ack?</a></li>
-        <li><a href="./testimonials.html">Testimonials</a></li>
-        <li><a href="./documentation.html">Documentation</a></li>
-        <li><a href="./community.html">Community</a></li>
-        <li><a href="./others.html">Other Tools</a></li>
+        <li>[% WRAPPER link.tt page='installation' %]Installation[% END %]</li>
+        <li>[% WRAPPER link.tt page='why-ack' %]Why ack?[% END %]</li>
+        <li>[% WRAPPER link.tt page='testimonials' %]testimonials[% END %]</li>
+        <li>[% WRAPPER link.tt page='documentation' %]Documentation[% END %]</li>
+        <li>[% WRAPPER link.tt page='community' %]Community[% END %]</li>
+        <li>[% WRAPPER link.tt page='more-tools' %]More Tools[% END %]</li>
     </ul>
 </div>
+
+
