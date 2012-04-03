@@ -50,7 +50,7 @@ _   /|
         <h2>How to install</h2>
         <p>
         ack is simple to install, via CPAN, package or simple download.
-        [% WRAPPER link.tt page='testimonials' %]Read how[% END %].
+        [% WRAPPER link.tt page='install' %]Read how[% END %].
         </p>
     </div>
 
