@@ -2,10 +2,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        <meta name="Author" content="Andy Lester" />
         <title>[% title | html %]</title>
-        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+        <meta name="Author" content="Andy Lester" />
+        <meta name="google-site-verification" content="bly0zLq6r6MJn3DvFyal36MLTstCJLj-77Lh-iVWp9Q" />
+        <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="http://betterthangrep.com/btg.css" />
     </head>
     <body>
