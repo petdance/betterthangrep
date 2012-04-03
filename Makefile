@@ -16,7 +16,6 @@ crank: clean
 	perl crank --sourcepath=$(SOURCE) --buildpath=$(BUILD)
 	cp -R static/* $(BUILD)/
 	find $(BUILD) -name "*~" -exec rm -v -f {} \; # Remove any backup leftovers
-	chmod -R -w $(BUILD)/*
 
 test: crank
 	prove t/html.t
@@ -24,4 +23,4 @@ test: crank
 # This is only useful for Andy
 rsync:
 	rsync -azu -e ssh --delete --verbose \
-		$(BUILD)/ andy@huggy.petdance.com:/srv/btg/redesign
+		$(BUILD)/ andy@huggy.petdance.com:/srv/btg/

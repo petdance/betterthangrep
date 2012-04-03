@@ -24,13 +24,13 @@ sub main {
 
     # XXX This should not be hardcoded
     my @pages = qw(
-    index.html
-    installation.html
-    community.html
-    more-tools.html
-    testimonials.html
-    why-ack.html
-    documentation.html
+    index
+    installation
+    community
+    more-tools
+    testimonials
+    why-ack
+    documentation
     );
 
     MAIN: {
@@ -46,9 +46,17 @@ sub main {
 
         my $tt = Template->new( \%tt_settings );
 
-        for my $target ( @pages ) {
-            my $source = $target;
-            $source =~ s/\.html$/.ttml/ or die;
+        for my $page ( @pages ) {
+            my $source = "$page.ttml";
+            my $target;
+
+            if ( $page eq 'index' ) {
+                $target = 'index.html';
+            }
+            else {
+                mkdir( "$buildpath/$page" );
+                $target = "$page/index.html";
+            }
 
             my $vars = {};
             $tt->process( $source, $vars, $target, { binmode => ':encoding(UTF-8)' } )
