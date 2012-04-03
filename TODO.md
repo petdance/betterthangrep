@@ -7,7 +7,3 @@
 * testimonial CSS Tweaks
 * On the testimonials page, link to the installation page inline from the quotes.  And any other relevant.
 * Give props to designer dude and Jeana, along with links back to respective homepages.
-
-# Maybe things
-
-* Add sidebars to inside pages.  Maybe the Testimonials page has a sidebar link to Installation, for example.
