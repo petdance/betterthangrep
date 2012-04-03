@@ -4,9 +4,7 @@
     * others.html should be /others/
 * Stylized blockquote
 * padding/margin issues with headers and body content.
-* fix w3.org validation errors
 * testimonial CSS Tweaks
-* change a:hover background from rgba to hex
 * On the testimonials page, link to the installation page inline from the quotes.  And any other relevant.
 * Give props to designer dude and Jeana, along with links back to respective homepages.
 

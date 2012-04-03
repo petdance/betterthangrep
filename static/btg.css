@@ -22,7 +22,7 @@ body {
   font-size:2.5em;
   font-weight:normal;
   margin: 0 10px;
-  padding: 8px 0;
+  padding: 6px 0 0 0;
 }
 
 .logo a {
@@ -77,6 +77,7 @@ body {
 .nav li a:hover {
   background-color:#cf3500;
   border-bottom:none;
+  text-decoration:none;
 }
 
 
@@ -153,7 +154,7 @@ a:hover {
   color:#cf3500;
   text-decoration:none;
   border-bottom:1px solid #cf3500;
-  background:rgba(207, 53, 0, 0.2);
+  background:#EFCFC5;
 }
 /* main content area */
 
