@@ -73,6 +73,9 @@
         <dt>Gentoo</dt>
         <dd>Package "sys-apps/ack"</dd>
 
+        <dt>Sabayon</dt>
+        <dd>Package "sys-apps/ack"</dd>
+
         <dt>Arch</dt>
         <dd>Package "community/ack"</dd>
     </dl>
