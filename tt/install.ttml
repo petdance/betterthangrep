@@ -54,10 +54,10 @@
 
     <dl>
         <dt>Macports</dt>
-        <dd>Port "p5-app-ack"</dd>
+        <dd>Port "perl/p5-app-ack"</dd>
 
         <dt>FreeBSD port</dt>
-        <dd>Port "p5-ack"</dd>
+        <dd>Port "textproc/p5-ack"</dd>
 
         <dt>Debian<dt>
         <dd>Package "ack-grep"</dd>
