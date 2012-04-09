@@ -4,7 +4,7 @@
 	rsync
 
 BUILD=build
-SOURCE=s
+SOURCE=tt
 
 default: crank
 
