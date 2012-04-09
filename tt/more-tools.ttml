@@ -19,8 +19,21 @@
         the super-speedy "ack" tool to search your code
         FAST. It gives you beautiful, clickable results just
         as fast as "ack" can find them. Check it out at:
-        <a href="https://github.com/protocool/ackmate">https://github.com/protocool/ackmate</a>
+        [% WRAPPER selflink.tt %]https://github.com/protocool/ackmate[% END %]
     </blockquote>
+
+    <h2>ack.vim</h2>
+
+    <p>
+    ack.vim provides an interface between ack and the
+    <a href="http://www.vim.org/">vim text editor</a>.  For example,
+    you can call <code>:Ack foo</code>, which will run ack and load
+    ack's results into a vim buffer for manipulation and navigation.
+    <p>
+
+    <p>
+    ack.vim is available at the official vim website at
+    [% WRAPPER selflink.tt %]http://www.vim.org/scripts/script.php?script_id=2572[% END %]
 
     <h1>Alternatives to ack</h1>
 
