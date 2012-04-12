@@ -22,7 +22,7 @@
         [% WRAPPER selflink.tt %]https://github.com/protocool/ackmate[% END %]
     </blockquote>
 
-    <h2>ack.vim</h2>
+    <h2>vim integration</h2>
 
     <p>
     ack.vim provides an interface between ack and the
@@ -34,6 +34,17 @@
     <p>
     ack.vim is available at the official vim website at
     [% WRAPPER selflink.tt %]http://www.vim.org/scripts/script.php?script_id=2572[% END %]
+    </p>
+
+    <h2>Emacs integration</h2>
+    <p>
+    There are at least four different Emacs modes for supporting ack here at the Emacs Wiki: 
+    [% WRAPPER selflink.tt %]http://www.emacswiki.org/emacs/Ack[% END %]
+    </p>
+
+    <p>
+    Note: Be careful of any solution that defaults you to using <tt>--all</tt>.
+    </p>
 
     <h1>Alternatives to ack</h1>
 
