@@ -11,5 +11,18 @@
 <pre>
 [% PROCESS 'ack-help-types.txt' %]
 </pre>
-    </div>
-    [% END %]
+
+    <h1>Articles about ack</h1>
+
+    <p>
+    Articles from around the web about ack and searching.  Let me know if there are any that should be on here.
+    </p>
+
+    <dl>
+
+    <dt>Use ack instead of grep to parse text files</dt>
+    <dd>2012-04-10, [% WRAPPER selflink.tt %]http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files[% END %]
+
+    </dl>
+</div>
+[% END %]
