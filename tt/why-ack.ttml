@@ -122,6 +122,10 @@
     drudgerous typing as possible.
     </p>
 
+    <p>
+    Defaults matter.  The less typing you have to do, the better.
+    </p>
+
     <h2>What are you waiting for?</h2>
     <p>
     [% WRAPPER link.tt page='install' %]Installation[% END %] is a snap.
