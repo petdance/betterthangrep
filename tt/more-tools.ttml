@@ -57,6 +57,19 @@
     [% WRAPPER email.tt %]andy@petdance.com[% END %].
     <p>
 
+    <h2>Ag, the Silver Searcher</h2>
+    <p>
+    Geoff Greer says "Ag is like ack, but better. It’s fast. It’s
+    damn fast. The only thing faster is stuff that builds indices
+    beforehand, like <a href="http://ctags.sourceforge.net/">Exuberant Ctags</a>."
+    Geoff has also created a fork of AckMate that uses Ag instead
+    of ack.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]https://github.com/ggreer/the_silver_searcher[% END %]
+    </p>
+
     <h2>grin</h2>
 
     <p>
