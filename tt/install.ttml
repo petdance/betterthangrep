@@ -32,8 +32,9 @@
     <h2>Install the ack executable</h2>
 
     <p>
-    The <a href="http://betterthangrep.com/ack-standalone">standalone
-    version of ack</a> is a single Perl program, around 2,800 lines
+    The
+    <a href="http://betterthangrep.com/ack-standalone">standalone version of ack</a>
+    is a single Perl program, around 2,800 lines
     of plain text.  It combines the ack program and all its modules
     into a single text file you can download and install anywhere
     you can put a shell script.  If you don't have sysadmin rights
@@ -78,6 +79,9 @@
 
         <dt>Arch</dt>
         <dd>Package "community/ack"</dd>
+
+        <dt>[Homebrew](http://mxcl.github.com/homebrew/)</dt>
+        <dd>Formula "ack"</dd>
     </dl>
 
     <p>
