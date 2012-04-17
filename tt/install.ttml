@@ -57,6 +57,9 @@
         <dt>Macports</dt>
         <dd>Port "perl/p5-app-ack"</dd>
 
+        <dt><a href="http://mxcl.github.com/homebrew/">Homebrew</a> on Mac</dt>
+        <dd>Formula "ack"</dd>
+
         <dt>FreeBSD port</dt>
         <dd>Port "textproc/p5-ack"</dd>
 
@@ -79,9 +82,6 @@
 
         <dt>Arch</dt>
         <dd>Package "community/ack"</dd>
-
-        <dt>[Homebrew](http://mxcl.github.com/homebrew/)</dt>
-        <dd>Formula "ack"</dd>
     </dl>
 
     <p>
