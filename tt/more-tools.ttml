@@ -46,7 +46,7 @@
     Note: Be careful of any solution that defaults you to using <tt>--all</tt>.
     </p>
 
-    <h1>Alternatives to ack</h1>
+    <h1>Other grep-like tools</h1>
 
     <p>
     There are many ways to search source code that are more flexible
@@ -100,6 +100,37 @@
 
     <p>
     [% WRAPPER selflink.tt %]http://www.incava.org/projects/glark[% END %]
+    </p>
+
+    <h1>Indexing tools</h1>
+    <p>
+    Sometimes when you're looking at a large codebase, it makes
+    sense to see everything as a whole.  An indexing tool may help
+    you out.
+    </p>
+
+    <h2>ctags</h2>
+    <p>
+    ctags is a program almost as old as time itself.  When run
+    against a codebase, ctags indexes various elements of the code,
+    such as variables and functions.  This lets your editor or other
+    tools use the tags index to jump quickly to that element.
+    </p>
+
+    <p>
+    The most common ctags implementation is Exuberant ctags:
+    [% WRAPPER selflink.tt %]http://ctags.sourceforge.net/[% END %]
+    </p>
+
+    <h2>Code Search</h2>
+    <p>
+    Russ Cox, the guy that wrote Google's CodeSearch engine, wrote
+    <a href="http://swtch.com/~rsc/regexp/regexp4.html">an article about how it worked</a>
+    and released an implementation in Go.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]https://code.google.com/p/codesearch/[% END %]
     </p>
 
 </div>
