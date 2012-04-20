@@ -133,6 +133,29 @@
     [% WRAPPER selflink.tt %]https://code.google.com/p/codesearch/[% END %]
     </p>
 
+    <h2>OpenGrok</h2>
+    <p>
+    OpenGrok is a fast and usable source code search and cross
+    reference engine. It helps you search, cross-reference and
+    navigate your source tree.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://hub.opensolaris.org/bin/view/Project+opengrok/[% END %]
+    </p>
+
+    <h2>cscope</h2>
+    <p>
+    Cscope is a developer's tool for browsing source code.  Cscope
+    was part of the official AT&amp;T Unix distribution for many
+    years, and has been used to manage projects involving 20 million
+    lines of code.  It also can integrate with vim and Emacs.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://cscope.sourceforge.net/[% END %]
+    </p>
+
 </div>
 
 [% END %]
