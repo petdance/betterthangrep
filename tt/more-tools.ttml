@@ -156,6 +156,19 @@
     [% WRAPPER selflink.tt %]http://cscope.sourceforge.net/[% END %]
     </p>
 
+    <h2>GNU GLOBAL</h2>
+    <p>
+    GNU GLOBAL is a source code tagging system that works the same
+    way across diverse environments (emacs, vi, less, bash, web
+    browser, etc). You can locate objects in source files and move
+    there easily.  It is similar to ctags or etags but is different
+    from them at the point of independence of any editor.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://www.gnu.org/software/global/[% END %]
+    </p>
+
 </div>
 
 [% END %]
