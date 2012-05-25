@@ -33,7 +33,7 @@
 
     <p>
     The
-    <a href="/ack-standalone">standalone version of ack</a>
+    <a href="ack-standalone">standalone version of ack</a>
     is a single Perl program, around 2,800 lines
     of plain text.  It combines the ack program and all its modules
     into a single text file you can download and install anywhere

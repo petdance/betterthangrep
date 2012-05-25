@@ -5,10 +5,10 @@
         <title>[% title | html %]</title>
         <meta name="Author" content="Andy Lester" />
         <meta name="google-site-verification" content="bly0zLq6r6MJn3DvFyal36MLTstCJLj-77Lh-iVWp9Q" />
+        <base href="[% base %]" />
         <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="/btg.css" />
-        <base href="[% base %]" />
+        <link rel="stylesheet" type="text/css" href="btg.css" />
     </head>
     <body>
         [% PROCESS 'nav.tt' %]

@@ -9,16 +9,19 @@ use Getopt::Long;
 use List::MoreUtils qw( apply );
 use Template ();
 use Template::Constants qw( :debug :chomp );
+use URI::file;
 
 exit main();
 
 sub main {
     my $sourcepath = 's';
     my $buildpath  = 'build';
+    my $local;
 
     GetOptions(
         'sourcepath:s' => \$sourcepath,
         'buildpath:s'  => \$buildpath,
+        'local'        => \$local,
     ) or exit;
 
     -d $buildpath && -w $buildpath or die;
@@ -51,7 +54,8 @@ sub main {
         }
 
         my $vars = {
-            base => 'http://betterthangrep.com/',
+            base  => $local ? local_url( $buildpath ) : 'http://betterthangrep.com/',
+            index => $local ? 'index.html' : '',
         };
         $tt->process( $source, $vars, $target, { binmode => ':encoding(UTF-8)' } )
             or die sprintf( "file: %s\nerror: %s\n", $target, $tt->error );
@@ -70,3 +74,8 @@ sub get_page_names {
     return @pages;
 }
 
+sub local_url {
+    my $path = shift;
+
+    return URI::file->new_abs( $path )->as_string . '/';
+}

@@ -1,15 +1,22 @@
 .PHONY: \
 	crank \
 	clean \
+	local \
 	rsync
 
-BUILD=build
-SOURCE=tt
+PWD=$(shell pwd)
+BUILD=$(PWD)/build
+SOURCE=$(PWD)/tt
 
 default: crank
 
 clean:
 	rm -fr $(BUILD)
+
+local: clean
+	mkdir -p $(BUILD)/ || true > /dev/null 2>&1
+	perl crank --sourcepath=$(SOURCE) --buildpath=$(BUILD) --local
+	cp -R static/* $(BUILD)/
 
 crank: clean
 	mkdir -p $(BUILD)/ || true > /dev/null 2>&1
@@ -17,10 +24,10 @@ crank: clean
 	cp -R static/* $(BUILD)/
 	find $(BUILD) -name "*~" -exec rm -v -f {} \; # Remove any backup leftovers
 
-test: crank
+test:
 	prove t/html.t
 
 # This is only useful for Andy
-rsync:
+rsync: crank
 	rsync -azu -e ssh --delete --verbose \
 		$(BUILD)/ andy@huggy.petdance.com:/srv/btg/
