@@ -7,8 +7,8 @@
         <meta name="google-site-verification" content="bly0zLq6r6MJn3DvFyal36MLTstCJLj-77Lh-iVWp9Q" />
         <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="http://betterthangrep.com/btg.css" />
-        <base href="http://betterthangrep.com/" />
+        <link rel="stylesheet" type="text/css" href="/btg.css" />
+        <base href="[% base %]" />
     </head>
     <body>
         [% PROCESS 'nav.tt' %]

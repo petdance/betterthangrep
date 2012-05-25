@@ -50,7 +50,9 @@ sub main {
             $target = "$page/index.html";
         }
 
-        my $vars = {};
+        my $vars = {
+            base => 'http://betterthangrep.com/',
+        };
         $tt->process( $source, $vars, $target, { binmode => ':encoding(UTF-8)' } )
             or die sprintf( "file: %s\nerror: %s\n", $target, $tt->error );
     }
