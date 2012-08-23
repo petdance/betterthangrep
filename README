@@ -1,36 +1,5 @@
 This is the source code for the website http://betterthangrep.com
 
-I want to make an overhaul of the site.  The front page is drab and
-boring and you can't find anything.
-
-I'd like to get the content in the current page (because there is
-only one page on the entire site) split up into the following pages.
-
-* Front page
-    * Screenshots (That I don't have yet)
-    * Top 10 reasons to use ack
-    * Testimonials
-
-* Installation
-    * How to install
-    * ack for Textmate users
-
-* Community
-    * Mailing list signups
-
-* Documentation
-    * Manual
-    * FAQ
-    * Ack's command flags
-    * Ack's recognized filetypes
-
-* Community
-
-* Other tools (see below)
-
-I figure each of those can be a different page, with five different
-tabs on the front.
-
-The "Other tools" is going to be a page about other ack-like tools.
-I don't have any content for that page, so we don't have to create
-the page.  Just know that we need to account for it.
+If there are changes to be made in content on the site, you can
+fork this repo, make changes to the source files in the `tt/`
+directory, and send me a pull request.
