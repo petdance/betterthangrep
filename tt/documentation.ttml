@@ -21,7 +21,7 @@
     <dl>
 
     <dt>Use ack instead of grep to parse text files</dt>
-    <dd>2012-04-10, [% WRAPPER selflink.tt %]http://stevengharms.com/use-ack-instead-of-grep-to-parse-text-files[% END %]
+    <dd>2012-04-10, [% WRAPPER selflink.tt %]http://stevengharms.com/blog/2012/04/10/use-ack-instead-of-grep-to-parse-text-files/[% END %]
 
     </dl>
 </div>
