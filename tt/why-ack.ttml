@@ -109,7 +109,7 @@
 
     <p>
     If you know GNU grep, you know most of ack's switches, too.
-    Word-only searching with <code>-w</code>, case-inensitive
+    Word-only searching with <code>-w</code>, case-insensitive
     searching with <code>-i</code>, etc
     </p>
 
