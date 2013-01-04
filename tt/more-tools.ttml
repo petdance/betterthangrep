@@ -120,8 +120,8 @@
     <h2>pss</h2>
 
     <p>
-    pss is an ack clone written in Python by Eli Benderski, aimed at Windows
-    machines.
+    pss is an ack clone written in Python by Eli Bendersky.  It's
+    written in pure Python with no additional modules necessary.
     </p>
 
     <p>
