@@ -94,9 +94,11 @@
 
     <h2>glark</h2>
 
+    <p>
     The biggest departure from ack, glark adds many more features like
     the ability to AND and OR your patterns.  It's written in Ruby by
     Jeff Page.
+    </p>
 
     <p>
     [% WRAPPER selflink.tt %]http://www.incava.org/projects/glark[% END %]
@@ -104,12 +106,26 @@
 
     <h2>nak</h2>
 
-    An implementation of ack, written in Node.js. It has inspiration 
-    from Ag, and is optimized for speed, not features. It's completely
+    <p>
+    An implementation of ack, written in
+    <a href="http://nodejs.org/">Node.js</a>. It has inspiration from
+    Ag, and is optimized for speed, not features. It's completely
     asynchronous. Written by Garen J. Torikian.
+    </p>
 
     <p>
     [% WRAPPER selflink.tt %]https://github.com/gjtorikian/nak[% END %]
+    </p>
+
+    <h2>pss</h2>
+
+    <p>
+    pss is an ack clone written in Python by Eli Benderski, aimed at Windows
+    machines.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]https://bitbucket.org/eliben/pss[% END %]
     </p>
 
     <h1>Indexing tools</h1>
