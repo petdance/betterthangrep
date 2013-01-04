@@ -102,6 +102,16 @@
     [% WRAPPER selflink.tt %]http://www.incava.org/projects/glark[% END %]
     </p>
 
+    <h2>nak</h2>
+
+    An implementation of ack, written in Node.js. It has inspiration 
+    from Ag, and is optimized for speed, not features. It's completely
+    asynchronous. Written by Garen J. Torikian.
+
+    <p>
+    [% WRAPPER selflink.tt %]https://github.com/gjtorikian/nak[% END %]
+    </p>
+
     <h1>Indexing tools</h1>
     <p>
     Sometimes when you're looking at a large codebase, it makes
