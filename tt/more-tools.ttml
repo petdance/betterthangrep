@@ -148,6 +148,28 @@
     [% WRAPPER selflink.tt %]http://ctags.sourceforge.net/[% END %]
     </p>
 
+    <h2>cscope</h2>
+    <p>
+    Cscope is a developer's tool for browsing source code.  Cscope
+    was part of the official AT&amp;T Unix distribution for many
+    years, and has been used to manage projects involving 20 million
+    lines of code.  It also can integrate with vim and Emacs.
+    </p>
+
+    <p>
+    [% WRAPPER selflink.tt %]http://cscope.sourceforge.net/[% END %]
+    </p>
+
+    <h2>CodeQuery</h2>
+
+    CodeQuery indexes and queries C, C++, Java and Python source
+    code. It builds upon the databases of cscope and ctags, mentioned
+    above, and provides a nice GUI tool.
+
+    <p>
+    [% WRAPPER selflink.tt %]https://github.com/ruben2020/codequery[% END %]
+    </p>
+
     <h2>Code Search</h2>
     <p>
     Russ Cox, the guy that wrote Google's CodeSearch engine, wrote
@@ -168,18 +190,6 @@
 
     <p>
     [% WRAPPER selflink.tt %]http://hub.opensolaris.org/bin/view/Project+opengrok/[% END %]
-    </p>
-
-    <h2>cscope</h2>
-    <p>
-    Cscope is a developer's tool for browsing source code.  Cscope
-    was part of the official AT&amp;T Unix distribution for many
-    years, and has been used to manage projects involving 20 million
-    lines of code.  It also can integrate with vim and Emacs.
-    </p>
-
-    <p>
-    [% WRAPPER selflink.tt %]http://cscope.sourceforge.net/[% END %]
     </p>
 
     <h2>GNU GLOBAL</h2>
